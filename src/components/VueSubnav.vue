@@ -43,6 +43,7 @@ export default {
     width 100%
 .nav
     width auto
+    max-height 41.6rem 
     background #FF2B34
     border-bottom-left-radius 5rem
     border-bottom-right-radius 5rem
@@ -82,5 +83,35 @@ export default {
     width 100%
 .container-group
     padding-bottom 8rem
-
+@media screen and (max-width: 1000px)
+    .container-group
+        display none
+    .inputs
+        padding-bottom 3rem
+        justify-content center
+        margin-right 8rem
+    .lg
+        max-width 20rem
+    .md
+        max-width 20rem
+    .header
+        font-size 2rem
+        margin-left 0
+        justify-content center
+        padding-top 0
+    .nav
+        padding 0 8rem
+@media screen and (max-width: 800px)
+    ::-webkit-input-placeholder 
+         color: transparent
+@media screen and (max-width: 700px)
+    .inputs
+        display flex
+        flex-direction column
+        align-items center
+    .lg
+        margin-bottom 1rem
+        min-width 18rem
+    .md
+        min-width 18rem
 </style>

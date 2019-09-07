@@ -65,4 +65,19 @@ export default {
     background #DFE2E9
     margin-top 1rem
     border none
+@media screen and (max-width: 840px)
+    .container-tabs
+        flex-wrap wrap
+        flex-direction column
+    .text
+        margin-top 1rem
+    .md
+        min-width 14rem
+        margin-left 1rem
+@media screen and (max-width: 530px)
+    .container-header
+        flex-direction column
+    .header
+        margin-bottom 1rem
+
 </style>

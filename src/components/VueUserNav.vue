@@ -32,6 +32,8 @@ export default {
 <style lang="stylus" scoped>
 .container
     width auto
+    display flex
+    flex-direction column
 .nav
     background #FF2B34
     width 100%
@@ -76,4 +78,7 @@ export default {
     font-family 'Roboto',sans-serif
     margin-left 12rem
     cursor pointer
+@media screen and (max-width: 550px)
+    .img
+        display none
 </style>

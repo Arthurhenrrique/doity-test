@@ -31,4 +31,9 @@ export default {
     justify-content center
     margin-left 7rem
     margin-bottom 20rem
+    flex-wrap wrap
+@media screen and (max-width: 500px)
+    .container-preview
+        margin-left 2rem
+        margin-right 2rem
 </style>

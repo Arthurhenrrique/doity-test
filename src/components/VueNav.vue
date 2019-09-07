@@ -38,6 +38,7 @@ export default {
     padding-top 2rem
 .container
     width auto
+    display flex
 .trademark
     font-size 4rem
     color #ffffff
@@ -52,4 +53,7 @@ export default {
     transition-delay 0.1s
 .img
     cursor pointer
+@media screen and (max-width: 1000px)
+    .text
+        display none
 </style>

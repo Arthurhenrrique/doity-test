@@ -71,6 +71,7 @@ export default {
     margin-top 2rem
     flex-direction column
     border-radius 5rem
+    margin-right 4rem
 .imagem
     max-width 100rem
     display flex
@@ -177,4 +178,10 @@ export default {
     width 100%
 .social
     margin-left 2rem
+@media screen and (max-width: 1080px)
+    .container
+        margin-left 5rem
+@media screen and (max-width: 630px)
+    .buy
+        margin-right 0
 </style>

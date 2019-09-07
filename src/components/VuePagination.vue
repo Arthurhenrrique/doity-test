@@ -54,6 +54,9 @@ export default {
             let page = this.currentPage
             const start = (page-1) * this.size,
             end = start + this.size;
+            if(this.sr == '') {
+                this.currentPage = 1
+            }
             return this.filterBy(this.myevent, this.sr, 'title').slice(start, end);
         }
     },
@@ -99,4 +102,7 @@ export default {
     font-size 2.8rem
     color #313131
     font-family 'Roboto', sans-serif
+@media screen and (max-width: 500px)
+    .texto
+        font-size 3rem
 </style>

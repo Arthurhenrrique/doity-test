@@ -163,4 +163,19 @@ export default {
 .primary
     border 1px solid #8B93A6
     color #000000
+@media screen and (max-width: 990px)
+    .row-a
+        margin-right 2rem
+    .row-b
+        margin-right 2rem
+    .row-c
+        margin-right 2rem
+    .row-d
+        margin-right 2rem
+    .row-e
+        margin-right 2rem
+    .row-f
+        margin-right 2rem
+    .row-g
+        margin-right 2rem
 </style>

@@ -79,4 +79,9 @@ export default {
     background #21C13C
     color #FFFFFF
     border none
+@media screen and (max-width: 1000px)
+    .md
+        width 12rem
+    .sm
+        width 7rem
 </style>

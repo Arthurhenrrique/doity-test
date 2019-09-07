@@ -72,4 +72,13 @@ export default {
     cursor pointer
     margin-left 6rem
     margin-top 0.8rem
+@media screen and (max-width: 1080px)
+    .text
+        display none
+@media screen and (max-width: 800px)
+    .imd
+        min-width unset
+@media screen and (max-width: 610px)
+    .imd
+        display none
 </style>

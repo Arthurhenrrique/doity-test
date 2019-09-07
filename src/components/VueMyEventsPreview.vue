@@ -61,4 +61,8 @@ export default {
     margin-bottom 2.5rem
 .img
     cursor pointer
+@media screen and (max-width: 500px)
+    .container-square
+        width 100%
+
 </style>

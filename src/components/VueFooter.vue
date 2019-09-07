@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <div>
+        <div class="links">
             <img class="img" src="@/assets/Grupo 144.png" alt="doity logo" @click="navigateTo('/home')">
             <span class="text">SOBRE A DOITY</span>
             <span class="text">BLOG</span>
@@ -48,4 +48,13 @@ export default {
     font-size 1.5rem
     margin 0 2rem
     cursor pointer
+@media screen and (max-width: 650px)
+    .links
+        display flex
+        align-items center
+    .footer
+        padding 0 0
+@media screen and (max-width: 550px)
+    .text
+        display none
 </style>
